@@ -1,0 +1,70 @@
+​​​​<!DOCTYPE html>
+​​​​<html>
+​​​​<head>
+​​​​    <title>Analysis Results</title>
+​​​​    <style>
+​​​​        body {
+​​​​            font-family: Arial, sans-serif;
+​​​​            margin: 20px;
+​​​​            padding: 20px;
+​​​​            background-color: #f9f9f9;
+​​​​        }
+​​​​        h1 {
+​​​​            color: #4CAF50;
+​​​​            text-align: center;
+​​​​        }
+​​​​        h2 {
+​​​​            color: #333;
+​​​​            text-align: left;  
+​​​​            margin-top: 10px;
+​​​​            font-size: 24px;
+​​​​        }
+​​​​        .container {
+​​​​            max-width: 800px;
+​​​​            margin: 0 auto;
+​​​​            text-align: center;
+​​​​        }
+​​​​        form {
+​​​​            margin-top: 20px;
+​​​​        }
+​​​​        input[type="text"] {
+​​​​            width: 100%;
+​​​​            padding: 10px;
+​​​​            margin: 10px 0;
+​​​​            border: 1px solid #ccc;
+​​​​            border-radius: 4px;
+​​​​        }
+​​​​        button {
+​​​​            padding: 10px 20px;
+​​​​            background-color: #4CAF50;
+​​​​            color: white;
+​​​​            border: none;
+​​​​            border-radius: 4px;
+​​​​            cursor: pointer;
+​​​​        }
+​​​​        button:hover {
+​​​​            background-color: #45a049;
+​​​​        }
+​​​​        a {
+​​​​            color: #4CAF50;
+​​​​            text-decoration: none;
+​​​​            font-weight: bold;
+​​​​        }
+​​​​        div {
+​​​​            text-align: left;
+​​​​            margin-top: 10px;
+​​​​        }
+​​​​    </style>
+​​​​</head>
+​​​​<body>
+​​​​    <div class="container">
+​​​​        <h1>Analysis Results</h1>
+​​​​        <h2>Your Question: {{ question }}</h2>
+​​​​        <h2>Possible Symptom Analysis:</h2>
+
+​​​​        <div>{{ analysis | safe }}</div>
+
+​​​​        <a href="/">Return to Home</a>
+​​​​    </div>
+​​​​</body>
+​​​​</html>
