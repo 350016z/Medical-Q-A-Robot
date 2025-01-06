@@ -9,7 +9,7 @@ Medical-Q-A-Robot/
 ├── static/                // Static files folder (optional)               
 ```
 
-### Model Selection
+## Model Selection
 
 - **Base Model**:  
   The base model used in this study is **Meta-Llama/Llama-3.2-1B-Instruct**, a pre-trained model designed for general-purpose language generation tasks.  
@@ -22,9 +22,9 @@ Medical-Q-A-Robot/
 - **Final Fine-Tuned Model**:  
   The fine-tuned model is published under the name **Johhny1201/llama3.2_1b_med_QA_3** and is available for public use.
 
-### User Interface
-* User input page
+## User Interface
+- **User input page**
 <img src="images/user_input.png" alt="Example Image" width="500" />
 
-* Result display page
+- **Result display page**
 <img src="images/result_display.png" alt="Example Image" width="500" />
